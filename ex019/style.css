@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+
+
+}
+
+h1 {
+    font: normal bolder 2em arial, sans-serif;
+}
+
+h1#principal {
+
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.5);
+}
+
+.segundo { 
+            background-color: blueviolet;
+
+
+
+            
+}
