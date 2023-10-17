@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background-left, .background-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5%; /* Metade da largura da página */
+    background-image: url(imagens/mascote.png);
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+}
+
+.background-left {
+    left: 0;
+}
+
+.background-right {
+    right: 0;
+}
